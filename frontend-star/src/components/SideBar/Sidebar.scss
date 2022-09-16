@@ -1,0 +1,27 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+
+.sidbar{
+       padding-top:170px;
+       width: 150px;
+       margin-left: 80px;
+       animation: fade 1s ;
+       a{
+           display: block;
+           margin-bottom: 10px;
+           color: rgba(0, 0, 0, 0.616) !important;
+
+       }
+       h5{
+           font-size: 19px;
+           font-weight: 600;
+           margin-top:24px;
+       }
+}
+@media screen  and (max-width : 697px) {
+        .sidbar{
+            display: none;
+        }
+}

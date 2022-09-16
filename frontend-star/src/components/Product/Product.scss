@@ -1,0 +1,306 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+
+
+
+.product{
+    padding-top:150px;
+    animation: fade 1s ;
+    .alert{
+        position: fixed;
+        top:140px !important;
+        width: 100%;
+        z-index: 1000 !important;
+        text-align: center;
+        .contain{
+            width: fit-content;
+            margin: 0 auto;
+            background-color: #ffffff;
+           border-radius: 30px;
+            padding: 16px 40px;
+            box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+            -webkit-box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+            -moz-box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+            h6{
+                font-size:  16px; 
+                font-weight: 600;
+            }
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: end;
+                button{
+                  
+                    font-size: 16px;
+                    font-weight: 600;
+                    padding: 7px 16px;
+    
+                    color:$green !important; 
+                    
+                }
+            }
+       
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    input{
+        width: 100%;
+        justify-content: center;
+        appearance: none;
+      
+    }
+    .size{
+        font-weight: 600;
+    }
+    hr{
+        height: 4px;
+        background-color: darkGreen;
+        
+    }
+    .link-name{
+height: 55px;
+padding-left: 190px;
+span{
+    font-weight: 600;
+   }
+    }
+
+    .product-hero{
+        width: 100%;
+        height: 332px;
+        background-color: #1f3933;
+    
+    
+        .hero-data{
+            height: 100%;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+           align-items: center;
+           .img{
+            width:  300px;
+            height: 300px;
+           
+           overflow:hidden ;
+        }
+            img{
+                width:  300px;
+                height: 300px;
+                margin: 0 auto;
+                 transform: scale(1.4);
+                position: relative;
+                bottom: 25px;
+                 object-fit: cover;
+            }
+            .product-content{
+                margin-left:10% ;
+                color:#ffffff;
+                h1 {
+                    font-weight: 600;
+
+                }
+               h3{
+                color:#bcc4c2;
+               
+               }
+            }
+        }
+ 
+        
+    }
+
+.size-option{
+    height: 300px;
+    width: 400px;
+    margin: 100px auto;
+
+    h2{
+        font-weight: 600;
+        opacity: 0.8;
+    }
+    .sizes-1{
+        justify-content: center;
+        label{
+            width: 100%;
+            
+            p{ 
+                width: 100%;
+                justify-content: center;  
+            display: flex;
+            margin: 0;
+            }
+            .bean{ 
+                background-image: url('https://www.starbucks.com/app-assets/68fbbd2d2327e50a71f0972c4e845c38.svg'); 
+                
+            }  }
+
+            .img-size{
+                transform: scale(1.2);
+                margin:  auto;
+                align-items: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 40px;
+                width: 24px;
+                margin-bottom: 10px;
+            }
+    }
+    .sizes{
+        justify-content: space-between;
+   
+    label{
+        width: 100%;
+        
+        p{ 
+            width: 100%;
+            justify-content: center;  
+        display: flex;
+        margin: 0;
+        }
+        .bean{ 
+            background-image: url('https://www.starbucks.com/app-assets/68fbbd2d2327e50a71f0972c4e845c38.svg'); 
+            
+        }  
+        .Short{ 
+            background-image: url('https://www.starbucks.com/app-assets/0295bad53506b2b3c22b7e5a16fd1554.svg');          
+        }  
+        .Short.active{
+            background-image: url("https://www.starbucks.com/app-assets/06ea008c02e29bbc7f8f9885c1f400f2.svg");
+            transition-duration: 0.5s;
+        }
+        .Tall{ 
+            background-image: url('https://www.starbucks.com/app-assets/d57860098a9c7cb67f0d3f83bb851eb6.svg');          
+        }  
+        .Tall.active{
+            background-image: url("https://www.starbucks.com/app-assets/8f80d6b33459b4fada562d0c76fe0880.svg");
+            transition-duration: 0.5s;
+        }
+
+        .Grande{ 
+            background-image: url('https://www.starbucks.com/app-assets/f1c3892d2d28cade899a1b6bd4ca5684.svg');          
+        }  
+        .Grande.active{
+            background-image: url("https://www.starbucks.com/app-assets/a35163e609f2058eee276482e80dc491.svg");
+            transition-duration: 0.5s;
+        }
+        .Venti{ 
+            background-image: url('https://www.starbucks.com/app-assets/8f4f6108fbeefb3455f09a631489b294.svg');          
+        }  
+        .Venti.active{
+            background-image: url("https://www.starbucks.com/app-assets/f3bd2f05578777d6c1a667ad64630cb4.svg");
+            transition-duration: 0.5s;
+        }
+
+        
+        .img-size{
+            transform: scale(1.2);
+            margin:  auto;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 40px;
+            width: 24px;
+            margin-bottom: 10px;
+        }
+    }
+
+
+
+    }
+
+}
+
+
+
+
+.add-order{
+padding: 18px 24px;
+color:#ffffff;
+font-weight: 600;
+font-size: 19px;
+background-color: #00754a;
+box-shadow: 0 0 6px rgb(0 0 0 / 24%), 0 8px 12px rgb(0 0 0 / 14%);
+line-height: 1.2;
+border-radius: 25px;
+position: fixed !important;
+right: 100px;
+bottom: 130px;
+z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+    @media screen  and (max-width : 1024px) {
+        
+        .link-name{
+            // background-color: red;
+          
+            padding-left: 20px;
+         
+                }
+        .product-hero{
+            height: 430.5px !important;
+        }
+        
+        .hero-data{
+            display: block !important;
+            padding-left: 0 !important;
+        }
+        .product-content{
+            margin:auto!important;
+            text-align: center !important;
+     
+        }
+
+
+        .size-option{
+
+            width: 90%;
+
+        }
+
+
+
+        .img{
+            margin: 0 auto;
+        }
+
+    }
+
+
+    @media screen  and (max-width : 875px) {
+
+    
+        .add-order{
+            right:30px !important;
+            }
+    .alert{
+    div{
+        justify-content: center !important;
+    }
+    }
+}
+}
+
+

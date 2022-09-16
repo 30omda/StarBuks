@@ -1,0 +1,135 @@
+* {
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #008248;
+  text-decoration: none;
+}
+a:hover {
+  color: #008248;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.text-upper {
+  text-transform: uppercase !important;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: white;
+  z-index: 1;
+}
+.loader-container .change-my-color {
+  width: 70px;
+  opacity: 0.7;
+}
+.loader-container .spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #008248 transparent #008248 transparent;
+  border-radius: 50%;
+  -webkit-animation: spin-anim 3s linear infinite;
+          animation: spin-anim 3s linear infinite;
+}
+@-webkit-keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rewards, .login {
+  -webkit-animation: fade 1s;
+          animation: fade 1s;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.cash {
+  background-color: #f9f9f9;
+}
+.cash .top-content {
+  margin-bottom: 60px;
+}
+.cash .top-content .title {
+  font-weight: 600;
+  padding-top: 50px;
+}
+.cash .top-content .sub-title {
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.cash .cash-content img {
+  width: 112px;
+  height: 158px;
+  margin-right: 16px;
+}
+.cash .cash-content h2 {
+  font-size: 24px !important;
+  font-weight: 600;
+  padding-right: 80px;
+}
+.cash .cash-content span {
+  font-size: 19px;
+  font-weight: 600;
+}
+.cash .cash-content p {
+  max-width: 303px;
+}
+.cash .cash-content a {
+  color: #008248;
+  text-decoration: underline;
+  transition: 0.9s !important;
+}
+.cash .cash-content a:hover {
+  text-decoration: none;
+}
+.cash .cash-content .last {
+  margin-left: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .cash .cash-content {
+    display: inline !important;
+  }
+  .cash .first, .cash .middle, .cash .last {
+    margin-bottom: 50px !important;
+    margin-left: 0 !important;
+  }
+}/*# sourceMappingURL=Cash.css.map */

@@ -1,0 +1,60 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+
+.cash{
+
+    background-color: #f9f9f9;
+
+    .top-content{
+    margin-bottom: 60px;
+        .title{
+        font-weight: 600;
+        padding-top: 50px;
+    }
+    .sub-title{
+        font-weight: 500;
+        max-width: 700px;
+        margin: 0 auto;
+    
+    }
+
+}
+.cash-content{
+    img{
+        width: 112px;
+        height:158px;
+        margin-right: 16px;
+    }
+    h2{
+        font-size: 24px !important;
+        font-weight: 600;
+        padding-right:80px ;
+    }
+    span{
+        font-size: 19px;
+        font-weight: 600;
+    }
+    p{
+        max-width: 303px;
+    }
+    a{
+        @include links($green);
+    }
+    .last{
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .cash-content{
+        display:inline !important;
+    }  
+    .first,.middle,.last{
+        margin-bottom: 50px !important;
+        margin-left: 0 !important;
+    }
+}
+}

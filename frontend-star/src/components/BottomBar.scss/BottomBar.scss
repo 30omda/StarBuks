@@ -1,0 +1,94 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+.BottomBar{
+
+    background-color: $darkGreen;
+    height: 94px;
+    width: 100%;
+    z-index: 2;
+    position: fixed !important;
+    bottom:0px;
+    display: flex;
+    align-items: center;
+    
+
+    .alert{
+        position: fixed;
+        top:140px !important;
+        width: 100%;
+        z-index: 1000 !important;
+        text-align: center;
+        .contain{
+            width: fit-content;
+            margin: 0 auto;
+            background-color: #ffffff;
+           border-radius: 30px;
+            padding: 16px 40px;
+            box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+            -webkit-box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+            -moz-box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+            h6{
+                font-size:  16px; 
+                font-weight: 600;
+            }
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: end;
+                button{
+                  
+                    font-size: 16px;
+                    font-weight: 600;
+                    padding: 7px 12px;
+    
+                    color:$green !important; 
+                   
+                 
+                }
+                .later{
+                    color:black !important; 
+                    opacity: 0.7;
+                    
+                }
+            }
+       
+        }
+
+    }
+
+
+
+
+    .icon{
+        background-image: url("https://www.starbucks.com/app-assets/9c51700b42896823747e5d9f27519d03.svg");
+        transform: scale(1.2);
+        background-repeat: no-repeat;
+        height: 32px;
+        width: 32px;
+        position: fixed;
+        right: 25%;
+        
+
+        span{
+            font-size: 19px;
+            font-weight: 700!important;
+            color: #ffffff !important;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top:4px;
+
+         
+        }
+      
+    }
+    .num{
+        color: #ffffff !important;
+    }   
+
+    .disabled-link {
+        pointer-events: none;
+      }
+}

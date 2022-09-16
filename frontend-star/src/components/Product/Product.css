@@ -1,0 +1,311 @@
+* {
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #008248;
+  text-decoration: none;
+}
+a:hover {
+  color: #008248;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.text-upper {
+  text-transform: uppercase !important;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: white;
+  z-index: 1;
+}
+.loader-container .change-my-color {
+  width: 70px;
+  opacity: 0.7;
+}
+.loader-container .spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #008248 transparent #008248 transparent;
+  border-radius: 50%;
+  -webkit-animation: spin-anim 3s linear infinite;
+          animation: spin-anim 3s linear infinite;
+}
+@-webkit-keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rewards, .login {
+  -webkit-animation: fade 1s;
+          animation: fade 1s;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.product {
+  padding-top: 150px;
+  -webkit-animation: fade 1s;
+          animation: fade 1s;
+}
+.product .alert {
+  position: fixed;
+  top: 140px !important;
+  width: 100%;
+  z-index: 1000 !important;
+  text-align: center;
+}
+.product .alert .contain {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 16px 40px;
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.33);
+}
+.product .alert .contain h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.product .alert .contain div {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.product .alert .contain div button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 16px;
+  color: #008248 !important;
+}
+.product input {
+  width: 100%;
+  justify-content: center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.product .size {
+  font-weight: 600;
+}
+.product hr {
+  height: 4px;
+  background-color: darkGreen;
+}
+.product .link-name {
+  height: 55px;
+  padding-left: 190px;
+}
+.product .link-name span {
+  font-weight: 600;
+}
+.product .product-hero {
+  width: 100%;
+  height: 332px;
+  background-color: #1f3933;
+}
+.product .product-hero .hero-data {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.product .product-hero .hero-data .img {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.product .product-hero .hero-data img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  transform: scale(1.4);
+  position: relative;
+  bottom: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.product .product-hero .hero-data .product-content {
+  margin-left: 10%;
+  color: #ffffff;
+}
+.product .product-hero .hero-data .product-content h1 {
+  font-weight: 600;
+}
+.product .product-hero .hero-data .product-content h3 {
+  color: #bcc4c2;
+}
+.product .size-option {
+  height: 300px;
+  width: 400px;
+  margin: 100px auto;
+}
+.product .size-option h2 {
+  font-weight: 600;
+  opacity: 0.8;
+}
+.product .size-option .sizes-1 {
+  justify-content: center;
+}
+.product .size-option .sizes-1 label {
+  width: 100%;
+}
+.product .size-option .sizes-1 label p {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+}
+.product .size-option .sizes-1 label .bean {
+  background-image: url("https://www.starbucks.com/app-assets/68fbbd2d2327e50a71f0972c4e845c38.svg");
+}
+.product .size-option .sizes-1 .img-size {
+  transform: scale(1.2);
+  margin: auto;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 24px;
+  margin-bottom: 10px;
+}
+.product .size-option .sizes {
+  justify-content: space-between;
+}
+.product .size-option .sizes label {
+  width: 100%;
+}
+.product .size-option .sizes label p {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+}
+.product .size-option .sizes label .bean {
+  background-image: url("https://www.starbucks.com/app-assets/68fbbd2d2327e50a71f0972c4e845c38.svg");
+}
+.product .size-option .sizes label .Short {
+  background-image: url("https://www.starbucks.com/app-assets/0295bad53506b2b3c22b7e5a16fd1554.svg");
+}
+.product .size-option .sizes label .Short.active {
+  background-image: url("https://www.starbucks.com/app-assets/06ea008c02e29bbc7f8f9885c1f400f2.svg");
+  transition-duration: 0.5s;
+}
+.product .size-option .sizes label .Tall {
+  background-image: url("https://www.starbucks.com/app-assets/d57860098a9c7cb67f0d3f83bb851eb6.svg");
+}
+.product .size-option .sizes label .Tall.active {
+  background-image: url("https://www.starbucks.com/app-assets/8f80d6b33459b4fada562d0c76fe0880.svg");
+  transition-duration: 0.5s;
+}
+.product .size-option .sizes label .Grande {
+  background-image: url("https://www.starbucks.com/app-assets/f1c3892d2d28cade899a1b6bd4ca5684.svg");
+}
+.product .size-option .sizes label .Grande.active {
+  background-image: url("https://www.starbucks.com/app-assets/a35163e609f2058eee276482e80dc491.svg");
+  transition-duration: 0.5s;
+}
+.product .size-option .sizes label .Venti {
+  background-image: url("https://www.starbucks.com/app-assets/8f4f6108fbeefb3455f09a631489b294.svg");
+}
+.product .size-option .sizes label .Venti.active {
+  background-image: url("https://www.starbucks.com/app-assets/f3bd2f05578777d6c1a667ad64630cb4.svg");
+  transition-duration: 0.5s;
+}
+.product .size-option .sizes label .img-size {
+  transform: scale(1.2);
+  margin: auto;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 24px;
+  margin-bottom: 10px;
+}
+.product .add-order {
+  padding: 18px 24px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 19px;
+  background-color: #00754a;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.24), 0 8px 12px rgba(0, 0, 0, 0.14);
+  line-height: 1.2;
+  border-radius: 25px;
+  position: fixed !important;
+  right: 100px;
+  bottom: 130px;
+  z-index: 1;
+}
+@media screen and (max-width: 1024px) {
+  .product .link-name {
+    padding-left: 20px;
+  }
+  .product .product-hero {
+    height: 430.5px !important;
+  }
+  .product .hero-data {
+    display: block !important;
+    padding-left: 0 !important;
+  }
+  .product .product-content {
+    margin: auto !important;
+    text-align: center !important;
+  }
+  .product .size-option {
+    width: 90%;
+  }
+  .product .img {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 875px) {
+  .product .add-order {
+    right: 30px !important;
+  }
+  .product .alert div {
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=Product.css.map */

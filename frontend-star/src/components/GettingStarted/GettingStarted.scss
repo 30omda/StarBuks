@@ -1,0 +1,87 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+.getting{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+.title{
+    font-weight: 600;
+ 
+}
+.sub-title{
+    font-weight: 500;
+
+}
+
+.card{
+    margin: 0 auto;
+    border: none !important;
+    .card-top{
+      
+        img{
+            width: 50px !important;
+      
+                margin: 0 auto !important;
+              
+        }
+
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.card-content{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 15px;
+    font-size: 16px;
+    letter-spacing: -.01em;
+    line-height: 1.5;
+    font-weight: 400;
+    a{
+        @include links($green);
+    }
+}
+
+
+
+@media only screen and(max-width:991px){
+   
+    .row{
+        margin: 0;
+    }
+.pig{
+    display: inline-flex;
+
+    .card-top{
+       
+        width: 50px !important;
+       display: inline ;
+       margin-right: 40px;
+  
+    }
+ 
+.small{
+            width: 80%;
+                            .card-title{
+                                text-align: left;
+                            
+                            }
+                            .card-content{
+                                text-align: left;
+                                margin: 0 !important;
+                                width: 100% !important;
+                            }
+        }
+
+         }
+            
+         }
+}
+
+
+
+}

@@ -1,0 +1,134 @@
+* {
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #008248;
+  text-decoration: none;
+}
+a:hover {
+  color: #008248;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.text-upper {
+  text-transform: uppercase !important;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: white;
+  z-index: 1;
+}
+.loader-container .change-my-color {
+  width: 70px;
+  opacity: 0.7;
+}
+.loader-container .spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #008248 transparent #008248 transparent;
+  border-radius: 50%;
+  -webkit-animation: spin-anim 3s linear infinite;
+          animation: spin-anim 3s linear infinite;
+}
+@-webkit-keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rewards, .login {
+  -webkit-animation: fade 1s;
+          animation: fade 1s;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+footer .data {
+  margin-right: 30px;
+  width: 25%;
+}
+footer h5 {
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+footer p {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer p:hover {
+  color: rgba(0, 0, 0, 0.719);
+}
+footer .down-line {
+  width: 98%;
+}
+footer .social img {
+  width: 32px;
+  margin-right: 10px;
+}
+footer .terms-privacy a {
+  text-decoration: none !important;
+  color: black;
+}
+footer .terms-privacy a:hover {
+  text-decoration: underline !important;
+}
+footer h6 {
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+@media (max-width: 1024px) {
+  footer .footerData {
+    display: block !important;
+  }
+  footer .data {
+    width: 40% !important;
+    margin-top: 60px;
+  }
+  footer .terms-privacy {
+    display: block !important;
+  }
+  footer .terms-privacy p {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=Footer.css.map */

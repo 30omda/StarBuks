@@ -1,0 +1,116 @@
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+
+.findstore{
+    animation: fade 1s ;
+    padding-top: 150px;
+    .row{   
+        padding: 0 !important;
+        margin: 0 !important;
+        }
+
+        .left{
+            position:absolute;
+            background-color: $darkGreen;
+            height: calc(100vh - 150px) !important;   
+            svg{
+                width: 200px;
+                margin: 50% auto 0 auto;
+            }
+            h5{
+                display: block;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 40px;
+                font-weight: 600;
+            }
+        }
+
+
+
+
+        
+    .right{
+        margin-left: 33%;
+      
+      .square{
+        height:  calc(100vh - 200px);
+        margin-top: 25px;
+        border-radius: 20px;
+        box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+        -webkit-box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+        -moz-box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.33);
+        width: 100%;
+        overflow:hidden;
+        // background-color: red ;
+
+
+        iframe{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+      }
+
+              }
+
+
+
+
+
+
+
+
+
+
+
+              @media screen and (max-width: 993px) {
+                ul{
+                    padding: 0 !important;
+                }
+                    .left{
+                        background-color: $darkGreen;
+                        height:20vh !important;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        svg{
+                            width: 100px;
+                            margin: 0 0 0 20px;
+                        //    margin: 0 auto !important;
+                            
+                        }
+                        h5{
+                            display: block;
+                            color: #ffffff;
+                            text-align: center;
+                            margin-top: 40px;
+                            font-weight: 600;
+                            margin-right: 20px;
+                            margin: 0 auto !important;
+                        }
+                    }
+
+                    .right{
+                        margin-left: 0 !important;
+                        padding-top: 170px;
+
+
+
+                    }
+                    .square{
+                        height:  calc(100vh - 370px) !important; 
+                      
+                    }
+
+              }
+
+                  
+
+
+
+
+
+
+}

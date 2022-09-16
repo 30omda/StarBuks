@@ -1,0 +1,74 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors" ;
+@import "../../assets/sass/root"   ;
+
+
+
+.gifts{
+    padding-top:170px;
+    margin-left: 100px;
+    animation: fade 1s ;
+    h5{
+        font-weight: 600;
+
+    }
+.cards{
+    margin: 0;
+
+    img{
+        width: 400px;
+        border-radius: 40px;
+        margin-bottom: 38px;
+        margin-top: 30px;
+       transition: ease-in-out;
+        
+        &:hover{
+            position: relative;
+            bottom: 20px;
+      
+        }
+    }
+
+}
+
+}
+
+.gift-card{
+ 
+    background-color:#f9f9f9 ;
+    .d-flex{
+        padding: 50px 0;
+        margin-left: 112px;
+    
+        img{
+        width: 400px !important;
+        margin-right: 50px;
+    }
+    p{
+        width :300px;
+        color: rgba(0, 0, 0, 0.589);
+    }
+    a{
+        color: black;
+        font-weight: 600;
+        @include button();
+        &:hover{
+            @include button-hover(black,rgb(230, 230, 230));
+        }
+    }}
+
+
+    
+}
+
+@media screen and  (max-width : 880px){
+    .gifts{ margin-left: 9% ;}
+    .Gift-Cards{
+        display: block !important;
+        margin-left: 9%  !important;
+        img {
+            margin-bottom: 20px;
+        }
+    }
+    
+}

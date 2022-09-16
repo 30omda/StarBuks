@@ -1,0 +1,91 @@
+{
+    "giftcards":[{
+        "name": "FATHER'S DAY",
+        "uri" : ["https://globalassets.starbucks.com/assets/4e301436cf3a43058992e4dee1ca8b43.jpg",
+                 "https://globalassets.starbucks.com/assets/5e41fa3bd26d4400a92cdd27c037ac88.jpg",
+                 "https://globalassets.starbucks.com/assets/fb28f428d4cd4b5db694eb6f71842663.jpg",
+                 "https://globalassets.starbucks.com/assets/79d535d930cb48f683b6a14e9c73780f.jpg",
+                 "https://globalassets.starbucks.com/assets/2f338386571f424cb61c9fea8717042f.jpg"]
+    },{
+         "name": "GRADUATION",
+         "uri" : ["https://globalassets.starbucks.com/assets/42588c5832f145d5aff6469fe0a6ecb6.jpg",
+                  "https://globalassets.starbucks.com/assets/ff23ba2daa464e579e528cbd04749e24.jpg",
+                  "https://globalassets.starbucks.com/assets/6cc10e8731d54cc0b620d0ce4460cc49.jpg"]
+    },{
+        "name": "TEACHER APPRECIATION",
+        "uri" : ["https://globalassets.starbucks.com/assets/62948b63a438450781fcdec8d2422fe2.jpg",
+                 "https://globalassets.starbucks.com/assets/e954a1639edd477393c86e784610f589.jpg",
+                 "https://globalassets.starbucks.com/assets/66c74142f6f542e4ad595411412b86e6.jpg",
+                 "https://globalassets.starbucks.com/assets/cf8073a96c544f2eabe530cc3b155f69.jpg"]
+    },{
+        "name": "BIRTHDAY",
+        "uri" : ["https://globalassets.starbucks.com/assets/825563688837485b94d622ef55b01448.jpg",
+                 "https://globalassets.starbucks.com/assets/196581be9eda4e4cb0c3b33ac3241ea7.jpg",
+                 "https://globalassets.starbucks.com/assets/025674328bc54e35a4ba0988875e6e5b.jpg",
+                 "https://globalassets.starbucks.com/assets/33f5dea8c80a4745950ba0179bbbe144.jpg",
+                 "https://globalassets.starbucks.com/assets/45f1c4ed8dac426ea31d09bc4296771c.jpg",
+                 "https://globalassets.starbucks.com/assets/02cc779eadaf4a1891efdc9908eefb89.jpg"]  
+    },{
+        "name": "THANK YOU",
+        "uri" : ["https://globalassets.starbucks.com/assets/3196fef83fbe49a58ea7c19bb685cc5c.jpg",
+                 "https://globalassets.starbucks.com/assets/a8fa33a190374fe69bf1de429a03053a.jpg",
+                 "https://globalassets.starbucks.com/assets/8c34f576af314654956200e08429e9bd.jpg",
+                 "https://globalassets.starbucks.com/assets/a1e98bec4d304103a5b49ec968b60782.jpg",
+                 "https://globalassets.starbucks.com/assets/f8167a08eaab4d2197729d2967caedad.jpg"]  
+    },{
+        "name": "PRIDE",
+        "uri" : ["https://globalassets.starbucks.com/assets/ea54154af0424420a62a3aecf5602b18.jpg",
+                 "https://globalassets.starbucks.com/assets/d2346fc58ecb4ce39534452c5c527c11.jpg",
+                 "https://globalassets.starbucks.com/assets/8f06eef6419b434c8dd2228161db784a.jpg"]  
+    },{
+        "name": "APPRECIATION",
+        "uri" : ["https://globalassets.starbucks.com/assets/3d9173ceb399494483d37c5c7d88958d.jpg",
+                 "https://globalassets.starbucks.com/assets/ea8cd4027f454f739cf4fffc4e0f2641.jpg",
+                 "https://globalassets.starbucks.com/assets/3848766f840b40f487af775753c9212c.jpg",
+                 "https://globalassets.starbucks.com/assets/9e106226562b40a2b2a149db572cca58.jpg"]  
+    },{
+        "name": "WORKPLACE",
+        "uri" : ["https://globalassets.starbucks.com/assets/28ae9dd37eee4f828627bd584b49f9f0.jpg",
+                 "https://globalassets.starbucks.com/assets/974d46ec17774cb1bafa313d1db92bbf.jpg",
+                 "https://globalassets.starbucks.com/assets/c4176b3e9fe34b5087040869f703ab48.jpg",
+                 "https://globalassets.starbucks.com/assets/030cdc65712a4cb3b9a58483de6799b3.jpg",
+                 "https://globalassets.starbucks.com/assets/1c47ac4f6e914144b8d6a2e3489f316e.jpg"]  
+    },{
+        "name": "ENCOURAGEMENT",
+        "uri" : ["https://globalassets.starbucks.com/assets/ff23ba2daa464e579e528cbd04749e24.jpg",
+                 "https://globalassets.starbucks.com/assets/0f7b291e505e45d29fde0c4d7b732140.jpg",
+                 "https://globalassets.starbucks.com/assets/c58f11e8197f4b608a1d7a751779fca3.jpg",
+                 "https://globalassets.starbucks.com/assets/27ade48b639f44a59ed702914a194454.jpg"]  
+        },{
+        "name": "SPRING",
+        "uri" : ["https://globalassets.starbucks.com/assets/b1bc1467fdd644aa87a83aa96bf8e17d.jpg",
+                 "https://globalassets.starbucks.com/assets/be090dd487b54f4490b153e00f35136f.jpg",
+                 "https://globalassets.starbucks.com/assets/5e0c21687dc64afba35ab74987b5bff5.jpg",
+                 "https://globalassets.starbucks.com/assets/deab39ef55c74dc7bc0a8f28801f0407.jpg"] 
+    },{
+        "name": "LOVE",
+        "uri" : ["https://globalassets.starbucks.com/assets/ef9fd7cc60c8426199db6c60e27d5d06.jpg",
+                 "https://globalassets.starbucks.com/assets/e6160161a69a472199628d3ea6096efe.jpg",
+                 "https://globalassets.starbucks.com/assets/0805c5d04491458a99629554c82f7794.jpg",
+                 "https://globalassets.starbucks.com/assets/76aada8fd9fd4a9d9adae18d10829062.jpg",
+                 "https://globalassets.starbucks.com/assets/432be6dc21334736857db5582c5449be.jpg"] 
+    },{
+        "name": "RECOGNITION",
+        "uri" : ["https://globalassets.starbucks.com/assets/3d9173ceb399494483d37c5c7d88958d.jpg",
+                 "https://globalassets.starbucks.com/assets/1680a3e1ccea4634920458a294c4e5a3.jpg",
+                 "https://globalassets.starbucks.com/assets/ef33554b45ec4a07b7f409b300ee35da.jpg",
+                 "https://globalassets.starbucks.com/assets/53049a69a22d4d51ba75abd47ee5bbb4.jpg"] 
+    },{
+        "name": "COMMUNITY",
+        "uri" : ["https://globalassets.starbucks.com/assets/456f9079795e41709105e0d56242e1d2.jpg",
+                 "https://globalassets.starbucks.com/assets/ea54154af0424420a62a3aecf5602b18.jpg",
+                 "https://globalassets.starbucks.com/assets/d2346fc58ecb4ce39534452c5c527c11.jpg"] 
+    },{
+        "name": "ANYTIME",
+        "uri" : ["https://globalassets.starbucks.com/assets/92e6ffc7131044a0a2cab5d7deded4b2.jpg",
+                 "https://globalassets.starbucks.com/assets/6f956ca135ac4505818cd06be4f476e9.jpg",
+                 "https://globalassets.starbucks.com/assets/bb5003220b16472c8efd7c1968edb836.jpg"] 
+    }]
+
+
+}

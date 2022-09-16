@@ -1,0 +1,45 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+
+
+
+.hero{
+    .hero-img{
+        background-image: url("../../assets/img/Untitled-1.png") ;
+        height: 100%;
+        background-position-y: 80px;
+        background-position-x: 50%;
+        
+    }
+    .hero-content{
+        margin-top: 120px;
+        margin-left: 11%;
+        h2{
+            font-weight: 600;
+            color:$darkGreen;
+            font-size: 36px;
+            line-height: 1.29;
+        }
+        p{
+            font-weight: 400;
+            color:$darkGreen;
+            font-size: 19px;
+            a{
+                @include links($darkGreen);
+            }
+        }
+
+        .hero-button{
+            font-weight: 600;
+            @include button ($green,white);
+            border: none !important;
+            transition: 0.2s;
+
+            &:hover{
+                @include button-hover (white,$green);
+            }   
+        }  
+    }
+}

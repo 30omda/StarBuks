@@ -1,0 +1,53 @@
+
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+.headmenu{
+    margin:194px auto 0 100px !important;
+    width: 62%;
+
+    h3{
+        font-weight: 600;
+        margin-bottom: 4800px;
+    
+
+    h4{
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+
+    .line{
+        margin-bottom: 32px;
+    }
+    .cards{
+        margin-bottom: 40px;
+    }
+.cardd{
+    height: fit-content;
+}
+
+    .img{
+            width: 180px;
+            border-radius: 90px;
+            overflow: hidden;
+            margin: 20px;
+            img{ transform: scale(1.8); }
+         }
+
+
+    a{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.616) !important;
+        margin: auto 0;
+        width: 100%;
+    }
+
+}   
+ @media screen  and (max-width : 697px) {
+    .headmenu{
+        margin:194px auto 0 auto !important;
+        width: 95%;
+    }
+ }}

@@ -1,0 +1,243 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+    animation: fade 1s ;
+
+.logout{
+    position: relative;
+
+    
+        
+        &:before{
+            content: 'logout';
+            font-size:16px ;
+    
+            font-weight: 600;
+            opacity: 0;
+            position: absolute;
+            left: 0px;
+            top:20px;
+          
+            transition:0.6s;
+            }
+           
+            &:hover{
+               
+          &:before{
+            font-size:16px ;
+            opacity: 1;
+            left:75px;
+        }
+            }
+        
+    }
+ 
+
+
+    p{
+    //   position: relative !important;
+    //   top: 20px !important;
+ margin: auto 0;
+ font-size: 14px;
+ font-weight: 600;
+
+    }
+    .top{
+        padding: 15px 5%;
+        justify-content: space-between;
+        background-color:white ;
+        height:100px;
+       .hamburger{
+        display: none;
+        cursor: pointer;
+        margin: auto 0;
+            }
+        .bar{
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px;
+            background-color: black;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+        @media (max-width:1024px){
+            .logout{
+                 &:before{
+                    top:30px !important;
+                 }
+ 
+                }
+            .hamburger{
+                display: block;
+        
+            }
+        
+            .hamburger.active .bar:nth-child(2){
+                opacity: 0;
+            }
+            .hamburger.active .bar:nth-child(1){
+               transform: translateY(8px) rotate(45deg);
+            }
+            .hamburger.active .bar:nth-child(3){
+                transform: translateY(-8px) rotate(-45deg);
+            }
+        
+        .nav-menu{
+            position: fixed;
+            right: -850px;
+            top:100px;
+            height: 100%;
+            background-color: #ffffff;
+            width: 80% !important;
+            transition: 0.3s;
+            z-index: 1111;
+           display: block !important;
+
+           .navlist.active a{
+            transition: 0.2s ease-in-out;
+            box-shadow: inset 0 0px #00754a !important; 
+            color: $green;     
+        }
+            .navlist1{
+                display: block !important;
+                margin-top: 20px ;
+                margin-bottom: 0 !important;
+            }
+            .navlist2{
+                display: block !important;
+         
+
+                :nth-child(2){
+                    display: inline !important;
+                }
+                :nth-child(3){
+                    display: inline !important;
+                }
+            }
+
+            li{
+                padding: 0px 0 45px 0 !important;
+            
+             }  
+        }
+          .nav-menu.active{
+          right:0;
+          }
+
+
+        }
+
+    }
+  
+
+
+
+
+
+   svg {
+        width: 50px;
+        cursor: pointer;
+      }
+     
+      
+    li{
+       padding: 20px 0 10px 0 ;
+        margin-right: 24px;
+    }  
+    a{
+        font-size: 16px;
+        font-weight: 600;
+        color:$darkGreen;
+         align-content: center;
+     }
+     .navlist{
+        font-weight: 700;  
+        font-size: 16px;
+        height: 100% !important;
+        a{
+            padding-bottom: 45px;
+            &:hover{
+                color:$green;
+            }
+        }
+      }
+      .navlist.active a{
+          transition: 0.2s ease-in-out;
+          box-shadow: inset 0 -6px #00754a; 
+          color: $green;     
+      }
+      .navlist2 a{
+          font-size: 14px;
+      }
+      .navlist2 li:nth-child(1) a{
+          margin-right: 35px;
+        &:hover{
+            color:$green !important;
+        }
+    }   
+    .navlist2 li:nth-child(2){
+        margin-right: 15px;
+    }
+    .navlist2 li:nth-child(2) a{
+        
+     @include button();
+     &:hover{
+         @include button-hover(black,rgb(230, 230, 230));
+     }
+    } 
+
+    .navlist2 li:nth-child(3) a{
+        @include button(black , white);
+        &:hover{
+            @include button-hover(white,black);
+        }
+
+
+       } 
+
+   
+
+      .down{
+          width: 100%;
+          height: 50px;
+          background-color: $darkGreen;
+          overflow: hidden !important;
+
+
+          -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.521);
+          h6{
+              
+              color: white;
+              font-weight: 700;
+              height: 100%;
+           
+            white-space: nowrap;
+             padding: 15px 0 15px 0;
+             transform: translateX(100%);
+             animation: moving 25s linear infinite;
+           
+          }
+
+        
+      }
+
+      @keyframes moving{
+        0%{
+        transform: translateX(100%);
+        }
+        100%{
+        transform: translateX(-100%);
+        }
+        }
+
+
+}
+

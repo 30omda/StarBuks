@@ -1,0 +1,72 @@
+@import "../../assets/sass/buttons";
+@import "../../assets/sass/colors";
+@import "../../assets/sass/root";
+
+.headmenu{
+    margin:194px auto 0 100px ;
+    width: 62%;
+
+    h3{
+        font-weight: 600;
+        margin-bottom: 48px;
+    }
+
+    h4{
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+
+    .line{
+        margin-bottom: 32px;
+    }
+    .cards{
+        margin-bottom: 40px;
+        width:calc(100% - 20px);
+
+    }
+.cardd{
+    height: fit-content;
+    
+    .img{
+        width: 200px;
+        border-radius: 90px;
+        overflow: hidden;
+        margin: 20px;
+        margin-right:40px !important ;
+        img{ transform: scale(1.8); }
+     }
+}
+
+   
+
+
+    a{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.616) !important;
+        margin: auto 0;
+        width: calc(100% + 40px);
+    }
+    
+
+}   
+
+
+
+ @media screen  and (max-width : 697px) {
+    .headmenu{
+        margin:194px auto 0 auto !important;
+        width: 95%;
+    }
+    .link{
+        font-size: 20px !important;
+    }
+}
+
+@media screen  and (max-width : 300px) {
+
+    .link{
+        font-size: 14px !important;
+    }
+}
