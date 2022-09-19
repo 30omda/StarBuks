@@ -1,4 +1,4 @@
 # STARBUCKS
 
 open link to view life
-https://starbucks-caffe.netlify.app/
+https://fitness-exercise.vercel.app/
